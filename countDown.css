@@ -4,6 +4,7 @@
   justify-content: center;
 }
 .countdownCard {
+  border-radius: 8px;
   width: 50%;
   background: #ccc;
   display: flex;

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2 Min CountDown</title>
+    <link rel="stylesheet" href="./countDown.css" />
+  </head>
+  <body>
+    <div>
+      <div class="countdownCard">
+        <div class="countDownTime">
+          <span id="countdown">02 : 00</span>
+        </div>
+        <div class="btnContainer">
+          <button class="start btn" id="start_btn" onclick="handleStart()">
+            Start
+          </button>
+          <button class="pause btn" id="pause_btn" onclick="handlePause()">
+            Pause
+          </button>
+          <button class="reset btn" id="reset_btn" onclick="handleReset()">
+            Reset
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="./countDown.js"></script>
+  </body>
+</html>
